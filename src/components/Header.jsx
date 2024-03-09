@@ -8,7 +8,7 @@ export const Header = () => {
             <div className="">
                 <img src={header} />
                 <div className="">
-                    <p>Plant Care Is Self Care</p>
+                    <p><span className="text-feature">Plant</span>Care Is <span className="text-feature">Self</span> Care</p>
                     <a href="">
                         <button className="" aria-label="">Shop Now</button>
                     </a>
