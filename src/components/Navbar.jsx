@@ -1,5 +1,5 @@
 import React from 'react'
-im 
+import logo from "../assets/images/logo.svg"
 import { PiMagnifyingGlassLight } from "react-icons/pi";
 import { IoPersonOutline } from "react-icons/io5";
 import { IoMdHeartEmpty } from "react-icons/io";
@@ -9,23 +9,24 @@ import { MdOutlineDarkMode } from "react-icons/md";
 export const Navbar = () => {
   return (
     <>
+      <div>
         <div>
           <aside className="font-urbanist bg-banner text-center tracking-widest">
-            <h4>FREE SHIPPING ON ALL U.S. ORDERS $50+</h4>
+            <h1>FREE SHIPPING ON ALL U.S. ORDERS $50+</h1>
           </aside>
         </div>
         <div>
           <nav className="font-urbanist">
-            <div className="p-4">
-              <div className="border rounded-md w-48">
-                <input type="search" name="search" placeholder="Search product" className="p-1 pl-3" />
-                <button aria-label="search" className="absolute right-36 top-24">
+            <div className="flex pt-4 pb-4">
+              <div className="border rounded-md">
+                <input type="search" name="search" placeholder="Search product" className="p-1" />
+                <button aria-label="search" className="">
                   <PiMagnifyingGlassLight />
                 </button>
               </div>
 
               <a href="" className="">
-                <img src="" alt="" />
+                {<img src={logo} alt="website logo the plant life" />}
               </a>
               <div className="">
                 <button className="" aria-label="">
@@ -45,7 +46,7 @@ export const Navbar = () => {
             </div>
             <div>
               <ul className="">
-                <li className="">
+                <li className="text-center">
                   <a href="/">Home</a>
                   <a href="#plants">Plants</a>
                   <a href="#plant-care">Plant Care</a>
@@ -56,6 +57,7 @@ export const Navbar = () => {
               </ul>
             </div>
           </nav>
+        </div>
         </div>
     </>
   )

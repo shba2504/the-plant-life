@@ -1,4 +1,8 @@
 import React from 'react'
+import newPlanting from "../assets/images/newPlanting.jpg"
+import plantCare from "../assets/images/plantCare.jpg"
+import petFriendly from "../assets/images/petFriendly.jpg"
+import growGarden from "../assets/images/growGarden.jpg"
 
 export const PlantJourney = () => {
   return (
@@ -8,16 +12,24 @@ export const PlantJourney = () => {
         </div>
         {/* carousel feature */}
         <div>
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+          <div>
+            <img src={newPlanting} alt="" />
+            <p>New to Planting?</p>
+          </div>
+          <div>
+            <img src={plantCare} alt="" />
+            <p>Plant Care</p>
+          </div>
+          <div>
+            <img src={petFriendly} alt="" />
+            <p>Pet-Friendly Plants</p>
+          </div>
+          <div>
+            <img src={growGarden} alt="" />
+            <p>Grow A Garden</p>
+          </div>
         </div>
         <div>
-            <p>New to Planting?</p>
-            <p>Plant Care</p>
-            <p>Pet-Friendly Plants</p>
-            <p>Grow A Garden</p>
         </div>
     </div>
   )
