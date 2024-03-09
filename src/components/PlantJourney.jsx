@@ -28,6 +28,10 @@ export const PlantJourney = () => {
             <img src={growGarden} alt="" />
             <p>Grow A Garden</p>
           </div>
+          <div>
+            <img src={growGarden} alt="" />
+            <p>Grow A Garden</p>
+          </div>
         </div>
         <div>
         </div>
