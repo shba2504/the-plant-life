@@ -3,7 +3,7 @@ import homeDecor from "../assets/images/homeDecor.jpg"
 
 export const HomeDecor = () => {
   return (
-    <div className="bg-home">
+    <div className="">
       <div>
         <h2>Make Your Space <span className="text-feature">Green</span></h2>
         <button>Find Inspiration</button>

@@ -6,15 +6,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-      urbanist: ["Urbanist", "sans-serif"],
-      tenor: ["'Tenor Sans'", "sans-serif"],
+        body: ["Urbanist", "sans-serif"],
+        header: ["'Tenor Sans'", "sans-serif"],
     },
-    colors: {
-      banner: "#F3F3BF",
-      feature: "#02622F",
-      heading: "#FCFAED",
-      home: "#F7F7F7",
-    }
+      colors: {
+        banner: "hsl(52, 71%, 96%)",
+        green: "hsl(148, 96%, 20%)",
+        gray: "hsl(0, 0%, 97%)",
+      },
     },
   },
   plugins: [],

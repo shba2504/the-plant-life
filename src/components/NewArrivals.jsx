@@ -6,7 +6,7 @@ import newArrivals4 from "../assets/images/newArrivals4.jpg"
 
 export const NewArrivals = () => {
   return (
-    <div className='bg-feature'>
+    <div className=''>
       <div className="">
         <h3>NEW ARRIVALS</h3>
         <button className="bg-white">Shop New Arrivals</button>

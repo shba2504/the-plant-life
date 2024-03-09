@@ -6,7 +6,7 @@ import bestsellers4 from "../assets/images/bestsellers4.jpg"
 
 export const Bestsellers = () => {
   return (
-    <div className="bg-heading">
+    <div className="">
       <div>
         <h3>BESTSELLERS</h3>
         <button>Shop Bestsellers</button>

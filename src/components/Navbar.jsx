@@ -11,13 +11,13 @@ export const Navbar = () => {
     <>
       <div>
         <div>
-          <aside className="font-urbanist bg-banner text-center tracking-widest">
+          <aside className="flex justify-center items-center bg-banner h-9 tracking-widest">
             <h1>FREE SHIPPING ON ALL U.S. ORDERS $50+</h1>
           </aside>
         </div>
         <div>
-          <nav className="font-urbanist">
-            <div className="flex pt-4 pb-4">
+          <nav className="font-body">
+            <div className="flex justify-around items-center pt-4 pb-4">
               <div className="border rounded-md">
                 <input type="search" name="search" placeholder="Search product" className="p-1" />
                 <button aria-label="search" className="">
@@ -35,18 +35,18 @@ export const Navbar = () => {
                 <button className="" aria-label="user">
                   <IoPersonOutline />
                 </button>
-                <button className="" aria-label="favorites">
+                <button className="hidden" aria-label="favorites">
                   <IoMdHeartEmpty />
                 </button>
                 <button className="" aria-label="cart item">
-                  <data className="" value="">$0.00</data>
+                  <data className="hidden" value="">$0.00</data>
                   <MdOutlineShoppingCart />
                 </button>
               </div>
             </div>
             <div>
               <ul className="">
-                <li className="text-center">
+                <li className=" flex justify-center">
                   <a href="/">Home</a>
                   <a href="#plants">Plants</a>
                   <a href="#plant-care">Plant Care</a>
