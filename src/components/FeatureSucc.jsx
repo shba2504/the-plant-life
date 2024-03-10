@@ -3,7 +3,7 @@ import succulents from "../assets/images/succulents.jpg"
 
 export const FeatureSucc = () => {
   return (
-    <div>
+    <div className="pt-6 pb-6">
       <img src={succulents} alt="" className="block w-full" />
       <button>Shop Succulents</button>
     </div>

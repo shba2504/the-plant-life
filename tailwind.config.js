@@ -13,6 +13,8 @@ export default {
         banner: "hsl(52, 71%, 96%)",
         green: "hsl(148, 96%, 20%)",
         gray: "hsl(0, 0%, 97%)",
+        drkgray: "hsl(217, 14%, 39%)",
+        transparent: "hsl(0, 0%, 93%, 75%)",
       },
     },
   },

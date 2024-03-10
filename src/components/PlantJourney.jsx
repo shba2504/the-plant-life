@@ -7,11 +7,11 @@ import growGarden from "../assets/images/growGarden.jpg"
 export const PlantJourney = () => {
   return (
     <div>
-        <div>
+        <div className="text-left p-4">
             <h3>START YOUR PLANT JOURNEY</h3>
         </div>
         {/* carousel feature */}
-        <div>
+        <div className="flex gap-2">
           <div>
             <img src={newPlanting} alt="" />
             <p>New to Planting?</p>

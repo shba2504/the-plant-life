@@ -5,7 +5,7 @@ export const WhyUs = () => {
   return (
     <div>
       <div>
-        <img src={whyUs} alt="" />
+        <img src={whyUs} alt="" className=""/>
       </div>
         <div>
             
