@@ -7,7 +7,7 @@ export const Planters = () => {
     <div>
       <div className="flex justify-between text-left tracking-widest p-4">
         <h2>PLANTERS</h2>
-        <button className="bg-white">Shop All Planters</button>
+        <button className="bg-white pl-8 pr-8">Shop All Planters</button>
       </div>
       <div className="flex gap-2">
         <div>

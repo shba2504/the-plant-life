@@ -10,7 +10,7 @@ export const Header = () => {
                 <div className="bg-banner p-4 flex justify-around items-center">
                     <h1 className="text-lg"><span className="text-green">Plant</span> Care Is <span className="text-green">Self</span> Care</h1>
                     <a href="">
-                        <button className="bg-white pl-8 pr-8" aria-label=""><span className="text-green">Shop Now</span></button>
+                        <button className="bg-white pl-10 pr-10 p-2 rounded-md" aria-label=""><span className="text-green">Shop Now</span></button>
                     </a>
                 </div>
             </div>

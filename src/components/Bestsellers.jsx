@@ -10,7 +10,7 @@ export const Bestsellers = () => {
     <div className="bg-banner mt-4">
       <div className="flex justify-between text-left p-4">
         <h2>BESTSELLERS</h2>
-        <button>Shop Bestsellers</button>
+        <button className="bg-white p-2 pl-8 pr-8 rounded-md">Shop Bestsellers</button>
       </div>
       <div className="flex">
         <div>

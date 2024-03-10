@@ -6,8 +6,8 @@ export const Newsletter = () => {
       <div>
         <h3 className="tracking-widest">GET IN THE KNOW</h3>
         <p>blah blah</p>
-        <input type="email" name="email" id="email"></input>
-        <button type="submit" aria-label="">Subscribe</button>
+        <input type="email" name="email" id="email" placeholder="Enter your email"></input>
+        <button className="bg-green text-white" type="submit" aria-label="">Subscribe</button>
       </div>
       <div>
         <p></p>

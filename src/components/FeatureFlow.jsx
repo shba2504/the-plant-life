@@ -7,7 +7,7 @@ export const FeatureFlow = () => {
       <div className="pt-6 pb-6">
         <img src={flowers} alt="" 
        className="block w-full" />
-        <button className="">Shop Flowers</button>
+        <button className="rounded-md">Shop Flowers</button>
     </div>
     </div>
   )

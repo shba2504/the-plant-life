@@ -5,7 +5,7 @@ export const FeatureSucc = () => {
   return (
     <div className="pt-6 pb-6">
       <img src={succulents} alt="" className="block w-full" />
-      <button className="">Shop Succulents</button>
+      <button className="bg-white p-2">Shop Succulents</button>
     </div>
   )
 }
