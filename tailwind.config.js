@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ["Urbanist", "sans-serif"],
+        body: ["Raleway", "sans-serif"],
         header: ["'Tenor Sans'", "sans-serif"],
     },
       colors: {

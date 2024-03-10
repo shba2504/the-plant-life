@@ -9,34 +9,34 @@ export const NewArrivals = () => {
   return (
     <div className="bg-green mt-4">
       <div className="flex justify-between text-left p-4">
-        <h1>NEW ARRIVALS</h1>
+        <h1 className="text-white">NEW ARRIVALS</h1>
         <button className="bg-white">Shop New Arrivals</button>
       </div>
       <div className="flex">
         <div>
           <img src={newArrivals1} alt="" />
           <AddButton />
-          <p>$0.00</p>
+          <p className="text-white">$0.00</p>
         </div>
         <div>
           <img src={newArrivals2} alt="" />
           <AddButton />
-          <p>$0.00</p>
+          <p className="text-white">$0.00</p>
         </div>
         <div>
           <img src={newArrivals3} alt="" />
           <AddButton />
-          <p>$0.00</p>
+          <p className="text-white">$0.00</p>
         </div>
         <div>
           <img src={newArrivals4} alt="" />
           <AddButton />
-          <p>$0.00</p>
+          <p className="text-white">$0.00</p>
         </div>
         <div>
           <img src="" alt="" />
           <AddButton />
-          <p>$0.00</p>
+          <p className="text-white">$0.00</p>
         </div>
       </div>
     </div>
