@@ -8,7 +8,6 @@ export const WhyUs = () => {
         <img src={whyUs} alt="" className=""/>
       </div>
         <div>
-            
         </div>
         <div>
             <p></p>

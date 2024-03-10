@@ -4,6 +4,10 @@
 
 @layer base{
     body {
-        @apply font-body;
+        @apply font-body tracking-wider;
+    }
+
+    button {
+        @apply tracking-wider;
     }
 }

@@ -9,7 +9,7 @@ export const Bestsellers = () => {
   return (
     <div className="bg-banner mt-4">
       <div className="flex justify-between text-left p-4">
-        <h3>BESTSELLERS</h3>
+        <h2>BESTSELLERS</h2>
         <button>Shop Bestsellers</button>
       </div>
       <div className="flex">

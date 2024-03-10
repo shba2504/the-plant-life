@@ -5,8 +5,8 @@ import planters2 from "../assets/images/planters2.jpg"
 export const Planters = () => {
   return (
     <div>
-      <div className="flex justify-between text-left p-4">
-        <h1>PLANTERS</h1>
+      <div className="flex justify-between text-left tracking-widest p-4">
+        <h2>PLANTERS</h2>
         <button className="bg-white">Shop All Planters</button>
       </div>
       <div className="flex gap-2">

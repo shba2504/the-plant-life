@@ -19,7 +19,7 @@ export const Navbar = () => {
           <nav className="">
             <div className="flex justify-around items-center pt-4 pb-4">
               <div className="border rounded-md">
-                <input type="search" name="search" placeholder="Search product" className="p-1 tracking-wider" />
+                <input type="search" name="search" placeholder="Search product" className="p-1" />
                 <button aria-label="search" className="">
                   <PiMagnifyingGlassLight />
                 </button>
@@ -45,7 +45,7 @@ export const Navbar = () => {
               </div>
             </div>
             <div>
-              <ul className="tracking-wider">
+              <ul className="">
                 <li className=" flex justify-center">
                   <a href="/">Home</a>
                   <a href="#plants">Plants</a>

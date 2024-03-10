@@ -8,8 +8,8 @@ import { AddButton } from './AddButton'
 export const NewArrivals = () => {
   return (
     <div className="bg-green mt-4">
-      <div className="flex justify-between text-left p-4">
-        <h1 className="text-white">NEW ARRIVALS</h1>
+      <div className="flex justify-between text-left tracking-widest p-4">
+        <h2 className="text-white">NEW ARRIVALS</h2>
         <button className="bg-white">Shop New Arrivals</button>
       </div>
       <div className="flex">
