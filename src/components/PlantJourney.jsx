@@ -13,8 +13,12 @@ export const PlantJourney = () => {
         {/* carousel feature */}
         <div className="flex gap-2 tracking-wide">
           <div>
-            <img src={newPlanting} alt="" />
-            <p>New to Planting?</p>
+            <div>
+              <img src={newPlanting} alt="" className=""/>
+            </div>
+            <div>
+              <p>New to Planting?</p>
+            </div>
           </div>
           <div>
             <img src={plantCare} alt="" />
