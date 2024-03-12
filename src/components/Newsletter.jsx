@@ -12,34 +12,42 @@ export const Newsletter = () => {
       <div>
         <div>
           <h3>ORDERS</h3>
-          <p>Track My Order</p>
-          <p>Shipping and Handling</p>
-          <p>30-Day Guarantee</p>
-          <p>FAQs</p>
+          <ul>
+            <li>Track My Order</li>
+            <li>Shipping and Handling</li>
+            <li>30-Day Guarantee</li>
+            <li>FAQs</li>
+          </ul>
         </div>
         <div>
           <h3>CONTACT US</h3>
-          <p>Phone</p>
-          <p>Email</p>
-          <p>Live Chat</p>
-          <p>Report Issue</p>
-          <p>Business Inquiries</p>
+          <ul>
+            <li>Phone</li>
+            <li>Email</li>
+            <li>Live Chat</li>
+            <li>Report Issue</li>
+            <li>Business Inquiries</li>
+          </ul>
         </div>
         <div>
           <h3>THE PLANT LIFE</h3>
-          <p>Blog</p>
-          <p>Plant Care</p>
-          <p>Gardening</p>
-          <p>Consultations</p>
-          <p>Locations</p>
+          <ul>
+            <li>Blog</li>
+            <li>Plant Care</li>
+            <li>Gardening</li>
+            <li>Consultations</li>
+            <li>Locations</li>
+          </ul>
         </div>
         <div>
           <h3>POLICIES</h3>
-          <p>Returns</p>
-          <p>Terms of Use</p>
-          <p>Privacy Policy</p>
-          <p>Become an Affiliate</p>
-          <p>Do Not Sell My Info</p>
+          <ul>
+            <li>Returns</li>
+            <li>Terms of Use</li>
+            <li>Privacy Policy</li>
+            <li>Become an Affiliate</li>
+            <li>Do Not Sell My Info</li>
+          </ul>
         </div>
       </div>
     </div>
