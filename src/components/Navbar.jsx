@@ -16,8 +16,8 @@ export const Navbar = () => {
           </aside>
         </div>
         <div>
-          <nav className="">
-            <div className="flex justify-around items-center pt-4 pb-4">
+          <nav>
+            <div className="flex justify-between items-center p-8">
               <div className="border rounded-md">
                 <input type="search" name="search" placeholder="Search product" className="p-1" />
                 <button aria-label="search" className="">
@@ -25,28 +25,27 @@ export const Navbar = () => {
                 </button>
               </div>
 
-              <a href="" className="">
+              <a href="">
                 {<img src={logo} alt="website logo the plant life" />}
               </a>
-              <div className="">
+              <div className="flex gap-6">
                 <button className="" aria-label="">
-                  <MdOutlineDarkMode />
+                  <MdOutlineDarkMode fontSize={22}/>
                 </button>
                 <button className="" aria-label="user">
-                  <IoPersonOutline />
+                  <IoPersonOutline fontSize={22}/>
                 </button>
-                <button className="hidden" aria-label="favorites">
-                  <IoMdHeartEmpty />
+                <button className="" aria-label="favorites">
+                  <IoMdHeartEmpty fontSize={22}/>
                 </button>
                 <button className="" aria-label="cart item">
-                  <data className="hidden" value="">$0.00</data>
-                  <MdOutlineShoppingCart />
+                  <MdOutlineShoppingCart fontSize={22}/>
                 </button>
               </div>
             </div>
             <div>
-              <ul className="">
-                <li className=" flex justify-center">
+              <ul>
+                <li className="flex justify-center gap-6 tracking-widest">
                   <a href="/">Home</a>
                   <a href="#plants">Plants</a>
                   <a href="#plant-care">Plant Care</a>
