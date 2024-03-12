@@ -3,8 +3,8 @@ import logo from "../assets/images/logo.svg"
 import { PiMagnifyingGlassLight } from "react-icons/pi";
 import { IoPersonOutline } from "react-icons/io5";
 import { IoMdHeartEmpty } from "react-icons/io";
-import { MdOutlineShoppingCart } from "react-icons/md";
-import { MdOutlineDarkMode } from "react-icons/md";
+import { IoCartOutline } from "react-icons/io5";
+import { IoMoonOutline } from "react-icons/io5";
 
 export const Navbar = () => {
   return (
@@ -17,10 +17,10 @@ export const Navbar = () => {
         </div>
         <div>
           <nav>
-            <div className="flex justify-between items-center p-8">
-              <div className="border rounded-md">
-                <input type="search" name="search" placeholder="Search product" className="p-1" />
-                <button aria-label="search" className="">
+            <div className="flex justify-between items-center p-6 pb-4">
+              <div className="border border-slate-300 rounded-md pr-1">
+                <input type="search" name="search" placeholder="Search" className="tracking-wide m-2" />
+                <button aria-label="search" className="text-slate-500">
                   <PiMagnifyingGlassLight />
                 </button>
               </div>
@@ -30,7 +30,7 @@ export const Navbar = () => {
               </a>
               <div className="flex gap-6">
                 <button className="" aria-label="">
-                  <MdOutlineDarkMode fontSize={22}/>
+                  <IoMoonOutline fontSize={22}/>
                 </button>
                 <button className="" aria-label="user">
                   <IoPersonOutline fontSize={22}/>
@@ -39,13 +39,14 @@ export const Navbar = () => {
                   <IoMdHeartEmpty fontSize={22}/>
                 </button>
                 <button className="" aria-label="cart item">
-                  <MdOutlineShoppingCart fontSize={22}/>
+                  <IoCartOutline fontSize={22}/>
                 </button>
               </div>
             </div>
+            <hr className="text-slate-500 w-1/2"/>
             <div>
               <ul>
-                <li className="flex justify-center gap-6 tracking-widest">
+                <li className="flex justify-center gap-6 tracking-widest pt-4">
                   <a href="/">Home</a>
                   <a href="#plants">Plants</a>
                   <a href="#plant-care">Plant Care</a>
