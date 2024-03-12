@@ -1,12 +1,13 @@
 import React from 'react'
-import whyUs from "../assets/images/whyUs.jpg"
+import whyShop from "../assets/images/whyShop.jpg"
 
 export const WhyUs = () => {
   return (
-    <div>
+    <div className="flex gap-4 p-4">
       <div>
-        <img src={whyUs} alt="" className=""/>
+        <img src={whyShop} alt="" className=""/>
       </div>
+      <div>
         <div>
           <h2>WHY SHOP WITH US?</h2>
         </div>
@@ -23,6 +24,7 @@ export const WhyUs = () => {
             <h3>PLANT CONSULTATION</h3>
             <p>If you're struggling to care for your new plant, you can book an appointment with a plant-care specialist at a low cost or check our blog!</p>
           </div>
+        </div>
         </div>
     </div>
   )
