@@ -10,7 +10,7 @@ export const HomeDecor = () => {
           <img src={homeDecor} alt="" />
         </div>
         <div className="bg-gray">
-          <h2>Make Your Space <span className="text-green">Green</span></h2>
+          <h2>Plants For Every Space.</h2>
           <button className="bg-white">Find Inspiration</button>
         </div>
         <div>
