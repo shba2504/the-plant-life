@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Newsletter = () => {
   return (
-    <div className="flex mt-4 px-10">
+    <div className="flex flex-col md:flex-row mt-4 px-10">
       <div>
         <h3 className="tracking-widest">GET IN THE KNOW</h3>
         <p></p>

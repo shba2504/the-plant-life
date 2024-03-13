@@ -4,8 +4,8 @@ import homeDecor2 from "../assets/images/homeDecor2.jpg"
 
 export const HomeDecor = () => {
   return (
-    <div className="px-10">
-      <div className="flex mt-4 gap-2">
+    <div className="py-4 px-10">
+      <div className="flex flex-col md:flex-row mt-4 gap-2">
         <div>
           <img src={homeDecor} alt="" />
         </div>

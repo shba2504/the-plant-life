@@ -4,7 +4,7 @@ import flowers3 from "../assets/images/flowers3.jpg"
 export const FeatureFlow = () => {
   return (
     <div>
-      <div className="pt-6 pb-6">
+      <div className="py-4">
         <div>
           <img src={flowers3} alt="" 
         className="block w-full" />

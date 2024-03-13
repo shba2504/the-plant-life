@@ -8,7 +8,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 export const NewArrivals = () => {
   return (
-    <div className="px-10">
+    <div className="py-2 px-10">
       <div className="bg-green mt-4">
         <div className="flex justify-between items-center text-left tracking-widest p-4">
           <h2 className="text-white">NEW ARRIVALS</h2>

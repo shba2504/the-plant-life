@@ -3,7 +3,7 @@ import whyShop from "../assets/images/whyShop.jpg"
 
 export const WhyUs = () => {
   return (
-    <div className="flex gap-4 px-10">
+    <div className="flex flex-col md:flex-row gap-4 px-10">
       <div>
         <img src={whyShop} alt="" className=""/>
       </div>
