@@ -5,7 +5,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 export const Planters = () => {
   return (
-    <div className="p-4">
+    <div className="px-10">
       <div className="flex justify-between text-left tracking-widest pt-4 pb-4">
         <h2>PLANTERS</h2>
         <button className="bg-white pl-8 pr-8">Shop All Planters <MdOutlineArrowRightAlt /></button>

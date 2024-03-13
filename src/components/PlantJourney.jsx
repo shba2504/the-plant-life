@@ -6,7 +6,7 @@ import growGarden from "../assets/images/growGarden.jpg"
 
 export const PlantJourney = () => {
   return (
-    <div className="p-4">
+    <div className="px-10">
         <div className="text-left tracking-widest pb-4">
             <h2>START YOUR PLANT JOURNEY</h2>
         </div>

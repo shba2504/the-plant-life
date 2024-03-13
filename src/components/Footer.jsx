@@ -4,7 +4,7 @@ import logo from "../assets/images/logo.svg"
 export const Footer = () => {
   return (
     <footer>
-      <div className="bg-banner mt-4">
+      <div className="bg-banner mt-4 px-10">
         <div className="flex justify-center">
           <a href="" className="">
             <img src={logo} alt="" className="pt-8 pb-4"/>
