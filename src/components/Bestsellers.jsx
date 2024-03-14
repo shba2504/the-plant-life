@@ -9,7 +9,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 export const Bestsellers = () => {
   return (
     <div className="py-2 px-10">
-      <div className="bg-banner mt-4">
+      <div className="mt-4">
         <div className="flex justify-between text-left p-4">
           <h2>BESTSELLERS</h2>
           <button className="bg-white p-2 pl-8 pr-8 rounded-md">Shop Bestsellers </button>

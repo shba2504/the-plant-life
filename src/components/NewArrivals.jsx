@@ -8,11 +8,11 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 export const NewArrivals = () => {
   return (
-    <div className="py-2 px-10">
-      <div className="bg-green mt-4">
-        <div className="flex justify-between items-center text-left tracking-widest p-4">
-          <h2 className="text-white">NEW ARRIVALS</h2>
-          <button className="bg-white p-2 pl-8 pr-8 rounded-md">Shop New Arrivals<MdOutlineArrowRightAlt /></button>
+    <div className="py-6 px-10">
+      <div className="">
+        <div className="flex justify-between items-center text-left tracking-widest py-4">
+          <h2 className="">NEW ARRIVALS</h2>
+          <button className="bg-white p-2 px-4 rounded-md">Shop New Arrivals<MdOutlineArrowRightAlt /></button>
         </div>
         <div className="flex">
           <div>

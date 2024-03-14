@@ -27,7 +27,7 @@ export const Navbar = () => {
               </div>
 
               {/* Mobile menu */}
-              <div className="visible lg:hidden">
+              <div className="lg:hidden">
                 <button className="" aria-label="open menu">
                   <span className="line1"></span>
                   <span className="line2"></span>
