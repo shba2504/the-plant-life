@@ -10,9 +10,9 @@ export const Bestsellers = () => {
   return (
     <div className="py-2 px-10">
       <div className="mt-4">
-        <div className="flex justify-between text-left p-4">
-          <h2>BESTSELLERS</h2>
-          <button className="bg-white p-2 pl-8 pr-8 rounded-md">Shop Bestsellers </button>
+        <div className="flex justify-between text-left">
+          <h2 className="text-lg lg:text-2xl">BESTSELLERS</h2>
+          <button className="p-2 pl-8 pr-8 rounded-md">Shop Bestsellers </button>
         </div>
         <div className="flex">
           <div>

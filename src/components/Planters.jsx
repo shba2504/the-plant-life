@@ -7,8 +7,8 @@ export const Planters = () => {
   return (
     <div className="py-2 px-10">
       <div className="flex justify-between text-left tracking-widest pt-4 pb-4">
-        <h2>PLANTERS</h2>
-        <button className="bg-white pl-8 pr-8">Shop All Planters <MdOutlineArrowRightAlt /></button>
+        <h2 className="text-lg lg:text-2xl">PLANTERS</h2>
+        <button className="pl-8 pr-8">Shop All Planters <MdOutlineArrowRightAlt /></button>
       </div>
       <div className="flex gap-2">
         <div>

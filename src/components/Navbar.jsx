@@ -10,7 +10,7 @@ import { IoMoonOutline } from "react-icons/io5";
 export const Navbar = () => {
   return (
     <>
-      <div>
+      <div className="sticky">
         <div>
           <aside className="flex justify-center items-center text-sm md:text-lg bg-banner h-12 font-body tracking-widest">
             <h1>FREE SHIPPING ON ALL U.S. ORDERS $50+</h1>
@@ -28,12 +28,12 @@ export const Navbar = () => {
 
               {/* Mobile menu */}
               <div className="lg:hidden">
-                <button className="" aria-label="open menu">
+                <button type="button" className="" aria-label="open menu">
                   <span className="line1"></span>
                   <span className="line2"></span>
                   <span className="line3"></span>
                 </button>
-                <button className="" aria-label="close menu">
+                <button type="button" className="" aria-label="close menu">
                   <IoCloseOutline />
                 </button>
               </div>
@@ -69,7 +69,7 @@ export const Navbar = () => {
             </div>
           </nav>
         </div>
-        </div>
+      </div>
     </>
   )
 }
