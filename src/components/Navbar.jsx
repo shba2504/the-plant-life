@@ -20,7 +20,7 @@ export const Navbar = () => {
           <nav>
             <div className="flex justify-between items-center p-10 pb-6">
               <div className="border border-slate-300 rounded-md pr-1 items-center hidden lg:flex">
-                <input type="search" name="search" placeholder="Search" className="opacity-50 tracking-wide m-1" />
+                <input type="search" name="search" placeholder="Search" className="opacity-50 tracking-wide m-1 outline-none" />
                 <button aria-label="search" className="text-slate-500">
                   <PiMagnifyingGlassLight />
                 </button>

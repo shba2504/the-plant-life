@@ -12,7 +12,10 @@ export const Bestsellers = () => {
       <div className="mt-4">
         <div className="flex justify-between text-left">
           <h2 className="text-lg lg:text-2xl">BESTSELLERS</h2>
-          <button className="p-2 pl-8 pr-8 rounded-md">Shop Bestsellers </button>
+          <div className="flex items-center">
+            <p>Shop Bestsellers </p>
+            <button><MdOutlineArrowRightAlt fontSize={22}/></button>
+          </div>
         </div>
         <div className="flex">
           <div>

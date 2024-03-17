@@ -10,11 +10,15 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 export const NewArrivals = () => {
   return (
     <div className="py-6 px-10">
-      <div className="">
-        <div className="flex justify-between items-center text-left tracking-widest">
-          <h2 className="text-lg lg:text-2xl">NEW ARRIVALS</h2>
-          <button className="">Shop New Arrivals</button>
-          <MdOutlineArrowRightAlt />
+      <div>
+        <div className="flex justify-between items-center text-left">
+          <h2 className="text-lg lg:text-2xl tracking-widest">NEW ARRIVALS</h2>
+          <div className="flex items-center">
+            <p>Shop New Arrivals</p>
+            <button>
+              <MdOutlineArrowRightAlt fontSize={22}/>
+            </button>
+          </div>
         </div>
         <div className="flex">
           <div>

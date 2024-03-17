@@ -10,8 +10,9 @@ export const PlantJourney = () => {
   return (
     <div className="py-6 px-10">
         <div className="text-left tracking-widest pb-4 text-lg lg:text-2xl">
-            <h2>START YOUR PLANT JOURNEY</h2>
+          <h2>START YOUR PLANT JOURNEY</h2>
         </div>
+        
         {/* carousel feature */}
         <div className="tracking-wide">
           <div className="flex items-start gap-2">
