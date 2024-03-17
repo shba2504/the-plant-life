@@ -3,12 +3,12 @@ import whyShop from "../assets/images/whyShop.jpg"
 
 export const WhyUs = () => {
   return (
-    <div className="grid md:grid-cols-2 py-8 gap-4 px-10">
+    <div className="grid md:grid-cols-2 gap-4 px-10">
       <div>
         <img src={whyShop} alt="" className=""/>
       </div>
-      <div className="px-8">
-        <div className="pb-4">
+      <div>
+        <div className="pb-4 text-center">
           <h2 className="text-5xl lg:text-6xl font-light">Why Shop With Us?</h2>
         </div>
         <div className="text-center">

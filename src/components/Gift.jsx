@@ -3,7 +3,7 @@ import React from 'react'
 export const Gift = () => {
   return (
     <div>
-      <div className="grid md:grid-cols-2 py-8">
+      <div className="grid md:grid-cols-2 py-8 px-10">
         <div>
           <img src="" alt="" />
         </div>
