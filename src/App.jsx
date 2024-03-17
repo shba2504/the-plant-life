@@ -14,6 +14,8 @@ import {HomeDecor} from "./components/HomeDecor"
 import {Newsletter} from "./components/Newsletter"
 import {Footer} from "./components/Footer"
 import { setupIonicReact } from '@ionic/react';
+import { Gift } from './components/Gift';
+import { Flowers } from './components/Flowers';
 
 setupIonicReact();
 
@@ -27,9 +29,11 @@ function App() {
      <FeatureSucc />
      <Planters />
      <Bestsellers />
+     <Flowers />
      <FeatureFlow />
      <WhyUs />
      <HomeDecor />
+     <Gift />
      <Newsletter />
      <Footer />
     </>

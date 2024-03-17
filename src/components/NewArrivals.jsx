@@ -18,22 +18,22 @@ export const NewArrivals = () => {
         </div>
         <div className="flex">
           <div>
-            <img src={newArrivals1} alt="" />
+            <img src={newArrivals1} alt="plant in a white pot on a wooden floor against a black background" />
             <AddButton />
             <p className="text-white">$0.00</p>
           </div>
           <div>
-            <img src={newArrivals2} alt="" />
+            <img src={newArrivals2} alt="two plants on a tray against a white background" />
             <AddButton />
             <p className="text-white">$0.00</p>
           </div>
           <div>
-            <img src={newArrivals3} alt="" />
+            <img src={newArrivals3} alt="a plant in an off-white pot" />
             <AddButton />
             <p className="text-white">$0.00</p>
           </div>
           <div>
-            <img src={newArrivals4} alt="" />
+            <img src={newArrivals4} alt="a cactus in a brown pot" />
             <AddButton />
             <p className="text-white">$0.00</p>
           </div>
