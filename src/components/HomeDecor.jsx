@@ -10,8 +10,8 @@ export const HomeDecor = () => {
           <img src={homeDecor} alt="" />
         </div>
         <div className="bg-gray">
-          <h2>Plants For Every Space.</h2>
-          <button className="bg-white">Find Inspiration</button>
+          <h2 className="text-5xl lg:text-6xl text-left font-light">Plants For Every Space.</h2>
+          <button className="bg-green mt-6 lg:text-lg focus:bg-white text-white focus:text-green font-semi-bold px-12 md:px-12 lg:px-12 p-2 md:p-1 lg:p-2 rounded-md">Find Inspiration</button>
         </div>
         <div>
           <img src={homeDecor2} alt="" />
