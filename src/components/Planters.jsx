@@ -12,10 +12,10 @@ export const Planters = () => {
       </div>
       <div className="flex gap-2">
         <div>
-          <img src={planters1} alt="" />
+          <img src={planters1} alt="plants in gold containers on a wooden table" />
         </div>
         <div>
-          <img src={planters2} alt="" />
+          <img src={planters2} alt="three beige planters with two on a pedestal" />
         </div>
       </div>
     </div>

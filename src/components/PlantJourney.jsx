@@ -16,27 +16,27 @@ export const PlantJourney = () => {
         <div className="tracking-wide">
           <div className="flex items-start gap-2">
             <div>
-              <img src={newPlanting} alt="" className="aspect-auto"/>
+              <img src={newPlanting} alt="plant hung on a railing" className="aspect-auto"/>
               <p>New to Planting?</p>
             </div>
             <div>
-              <img src={gardeningTools} alt="" className="aspect-auto" />
+              <img src={gardeningTools} alt="flatlay of gardening tools with plant leaves" className="aspect-auto" />
               <p>Gardening Tools</p>
             </div>
             <div>
-              <img src={petFriendly} alt="" className="aspect-auto" />
+              <img src={petFriendly} alt="a dog sitting next to a plant" className="aspect-auto" />
               <p>Pet-Friendly Plants</p>
             </div>
             <div>
-              <img src={growGarden} alt="" className="aspect-auto" />
+              <img src={growGarden} alt="hands working on soil in a garden" className="aspect-auto" />
               <p>Gardening Tips</p>
             </div>
             <div>
-              <img src={growingFlowers} alt="" className="aspect-auto" />
+              <img src={growingFlowers} alt="daisies in a clear vase" className="aspect-auto" />
               <p>Growing Flowers</p>
             </div>
             <div>
-              <img src={composting} alt="" className="aspect-auto" />
+              <img src={composting} alt="flatlay with soil on a table with gardening tools" className="aspect-auto" />
               <p>Composting</p>
             </div>
           </div>

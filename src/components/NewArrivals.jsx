@@ -13,7 +13,8 @@ export const NewArrivals = () => {
       <div className="">
         <div className="flex justify-between items-center text-left tracking-widest">
           <h2 className="text-lg lg:text-2xl">NEW ARRIVALS</h2>
-          <button className="p-2 px-4 rounded-md">Shop New Arrivals<MdOutlineArrowRightAlt /></button>
+          <button className="">Shop New Arrivals</button>
+          <MdOutlineArrowRightAlt />
         </div>
         <div className="flex">
           <div>

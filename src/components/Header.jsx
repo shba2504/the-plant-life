@@ -15,7 +15,7 @@ export const Header = () => {
                       <h1 className="text-5xl lg:text-6xl font-light pt-4"><span className="text-green">Self</span> Care</h1>
                       <p className="lg:text-lg pt-6">Discover our wide selection of plants, planters, & more!</p>
                       <a href="">
-                        <button className="bg-white mt-6 lg:text-lg focus:bg-green text-green focus:text-white px-12 md:px-12 lg:px-12 p-2 md:p-1 lg:p-2 rounded-md">Shop Now</button>
+                        <button className="bg-white mt-6 lg:text-lg focus:bg-green text-green focus:text-white font-semi-bold px-12 md:px-12 lg:px-12 p-2 md:p-1 lg:p-2 rounded-md">Shop Now</button>
                       </a>
                     </div>
                 </div>
