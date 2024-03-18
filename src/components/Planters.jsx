@@ -23,13 +23,13 @@ export const Planters = () => {
           <img src={planters1} alt="plants in gold containers on a wooden table" />
         </div>
         <div>
-          <img src={planters2} alt="three beige planters with two on a pedestal" />
+          <img src={planters3} alt="three beige planters with two on a pedestal" />
         </div>
         <div>
-          <img src={planters3} alt="3 bronze planters" />
+          <img src={planters4} alt="3 bronze planters" />
         </div>
         <div>
-          <img src={planters4} alt="2 plants, one dark and one light" />
+          <img src={planters2} alt="2 plants, one dark and one light" />
         </div>
         <div>
           <img src={plantersCollection} alt="a collection of various planters: white, brown, and gold" />

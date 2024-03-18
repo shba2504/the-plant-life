@@ -3,6 +3,7 @@ import newArrivals1 from "../assets/images/newArrivals1.jpg"
 import newArrivals2 from "../assets/images/newArrivals2.jpg"
 import newArrivals3 from "../assets/images/newArrivals3.jpg"
 import newArrivals4 from "../assets/images/newArrivals4.jpg"
+import newArrivals5 from "../assets/images/newArrivals5.jpg"
 import { AddButton } from "./AddButton"
 import { MdOutlineArrowRightAlt } from 'react-icons/md'
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -32,7 +33,7 @@ export const NewArrivals = () => {
             <p className="text-white">$0.00</p>
           </div>
           <div>
-            <img src={newArrivals3} alt="a plant in an off-white pot" />
+            <img src={newArrivals5} alt="a plant in an off-white pot" />
             <AddButton />
             <p className="text-white">$0.00</p>
           </div>
@@ -42,7 +43,7 @@ export const NewArrivals = () => {
             <p className="text-white">$0.00</p>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src={newArrivals3} alt="roses in a white pot" />
             <AddButton />
             <p className="text-white">$0.00</p>
           </div>

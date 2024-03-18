@@ -3,6 +3,7 @@ import bestsellers1 from "../assets/images/bestsellers1.jpg"
 import bestsellers2 from "../assets/images/bestsellers2.jpg"
 import bestsellers3 from "../assets/images/bestsellers3.jpg"
 import bestsellers4 from "../assets/images/bestsellers4.jpg"
+import bestsellers5 from "../assets/images/bestsellers5.jpg"
 import { AddButton } from "./AddButton"
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
@@ -29,7 +30,7 @@ export const Bestsellers = () => {
             <p>$0.00</p>
           </div>
           <div>
-            <img src={bestsellers3} alt="" />
+            <img src={bestsellers5} alt="" />
             <AddButton />
             <p>$0.00</p>
           </div>
@@ -39,7 +40,7 @@ export const Bestsellers = () => {
             <p>$0.00</p>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src={bestsellers3} alt="" />
             <AddButton />
             <p>$0.00</p>
           </div>
