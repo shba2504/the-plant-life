@@ -5,7 +5,7 @@ export const WhyUs = () => {
   return (
     <div className="grid md:grid-cols-2 gap-4 px-10">
       <div>
-        <img src={whyShop} alt="" className=""/>
+        <img src={whyShop} alt="" className="aspect-[3/3] object-cover"/>
       </div>
       <div>
         <div className="pb-4 text-center">

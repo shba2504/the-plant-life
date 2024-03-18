@@ -6,7 +6,7 @@ export const Newsletter = () => {
       <div>
         <h3 className="tracking-widest">GET IN THE KNOW</h3>
         <p></p>
-        <input type="email" name="email" id="email" placeholder="Enter your email"></input>
+        <input type="email" name="email" id="email" placeholder="Enter your email" className="outline-none"></input>
         <button className="bg-green text-white" type="submit" aria-label="">Subscribe</button>
       </div>
       <div>
