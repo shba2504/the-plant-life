@@ -18,29 +18,29 @@ export const Bestsellers = () => {
             <button><MdOutlineArrowRightAlt fontSize={22}/></button>
           </div>
         </div>
-        <div className="flex gap-2">
+        <div className="flex">
           <div>
             <img src={bestsellers1} alt="" />
             <AddButton />
             <p>$0.00</p>
           </div>
           <div>
-            <img src={bestsellers2} alt="" />
+            <img src={bestsellers2} alt="" className="aspect-[2/3]" />
             <AddButton />
             <p>$0.00</p>
           </div>
           <div>
-            <img src={bestsellers5} alt="" />
+            <img src={bestsellers5} alt="" className="aspect-[2/3]" />
+            <AddButton />
+            <p>$0.00</p>
+          </div>
+          <div>
+            <img src={bestsellers3} alt="" className="aspect-[2/3]"/>
             <AddButton />
             <p>$0.00</p>
           </div>
           <div>
             <img src={bestsellers4} alt="" />
-            <AddButton />
-            <p>$0.00</p>
-          </div>
-          <div>
-            <img src={bestsellers3} alt="" />
             <AddButton />
             <p>$0.00</p>
           </div>

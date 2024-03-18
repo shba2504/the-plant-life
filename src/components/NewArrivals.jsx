@@ -12,7 +12,7 @@ export const NewArrivals = () => {
   return (
     <div className="py-6 px-10 font-light">
       <div>
-        <div className="flex justify-between items-center text-left">
+        <div className="flex justify-between items-center text-left py-4">
           <h2 className="text-lg lg:text-2xl tracking-widest">NEW ARRIVALS</h2>
           <div className="flex items-center">
             <p>Shop New Arrivals</p>
@@ -21,7 +21,7 @@ export const NewArrivals = () => {
             </button>
           </div>
         </div>
-        <div className="flex">
+        <div className="flex w-full">
           <div>
             <img src={newArrivals1} alt="plant in a white pot on a wooden floor against a black background" />
             <AddButton />
@@ -38,12 +38,12 @@ export const NewArrivals = () => {
             <p className="text-white">$0.00</p>
           </div>
           <div>
-            <img src={newArrivals4} alt="a cactus in a brown pot" />
+            <img src={newArrivals3} alt="a cactus in a brown pot" className="aspect-[2/3]" />
             <AddButton />
             <p className="text-white">$0.00</p>
           </div>
           <div>
-            <img src={newArrivals3} alt="roses in a white pot" />
+            <img src={newArrivals4} alt="roses in a white pot" />
             <AddButton />
             <p className="text-white">$0.00</p>
           </div>

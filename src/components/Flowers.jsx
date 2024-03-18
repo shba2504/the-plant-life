@@ -20,7 +20,7 @@ export const Flowers = () => {
             </button>
           </div>
         </div>
-        <div className="flex gap-2">
+        <div className="flex">
           <div>
             <img src={shopFlowers} alt="" />
             <AddButton />
@@ -42,7 +42,7 @@ export const Flowers = () => {
             <p>$0.00</p>
           </div>
           <div>
-            <img src={shopFlowers3} alt="" />
+            <img src={shopFlowers3} alt="" className="aspect-[2/3]" />
             <AddButton />
             <p>$0.00</p>
           </div>
