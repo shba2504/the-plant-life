@@ -1,12 +1,12 @@
 import React from 'react'
-import flowers from "../assets/images/flowers.jpg"
+import flowers2 from "../assets/images/flowers2.jpg"
 
 export const FeatureFlow = () => {
   return (
     <div>
       <div className="py-4">
         <div>
-          <img src={flowers} alt="" 
+          <img src={flowers2} alt="" 
         className="block w-full" />
        </div>
        <div>

@@ -1,13 +1,16 @@
 import React from 'react'
 import planters1 from "../assets/images/planters1.jpg"
 import planters2 from "../assets/images/planters2.jpg"
+import planters3 from "../assets/images/planters3.jpg"
+import planters4 from "../assets/images/planters4.jpg"
+import plantersCollection from "../assets/images/plantersCollection.jpg"
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 export const Planters = () => {
   return (
-    <div className="py-2 px-10">
-      <div className="flex justify-between text-left tracking-widest pt-4 pb-4">
-        <h2 className="text-lg lg:text-2xl">PLANTERS</h2>
+    <div className="py-2 px-10 font-light">
+      <div className="flex justify-between text-left py-4">
+        <h2 className="text-lg lg:text-2xl tracking-widest">PLANTERS</h2>
         <div className="flex items-center">
           <p>Shop All Planters</p>
           <button>
@@ -21,6 +24,15 @@ export const Planters = () => {
         </div>
         <div>
           <img src={planters2} alt="three beige planters with two on a pedestal" />
+        </div>
+        <div>
+          <img src={planters3} alt="3 bronze planters" />
+        </div>
+        <div>
+          <img src={planters4} alt="2 plants, one dark and one light" />
+        </div>
+        <div>
+          <img src={plantersCollection} alt="a collection of various planters: white, brown, and gold" />
         </div>
       </div>
     </div>

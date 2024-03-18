@@ -9,7 +9,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 export const NewArrivals = () => {
   return (
-    <div className="py-6 px-10">
+    <div className="py-6 px-10 font-light">
       <div>
         <div className="flex justify-between items-center text-left">
           <h2 className="text-lg lg:text-2xl tracking-widest">NEW ARRIVALS</h2>

@@ -8,14 +8,14 @@ import composting from "../assets/images/composting.jpg"
 
 export const PlantJourney = () => {
   return (
-    <div className="py-6 px-10">
+    <div className="py-6 px-10 font-light">
         <div className="text-left tracking-widest pb-4 text-lg lg:text-2xl">
           <h2>START YOUR PLANT JOURNEY</h2>
         </div>
         
         {/* carousel feature */}
         <div className="tracking-wide">
-          <div className="flex items-start gap-2">
+          <div className="flex items-start text-center gap-2">
             <div>
               <img src={newPlanting} alt="plant hung on a railing" className="aspect-auto"/>
               <p>New to Planting?</p>
