@@ -6,11 +6,13 @@ export const Gift = () => {
     <div>
       <div className="grid md:grid-cols-2 py-8 px-10 gap-8">
         <div>
-          <img src={gift} alt="" className="aspect-[5/3] object-cover" />
+          <img src={gift} alt="bouquet of flowers on a wooden table" className="aspect-[4/3] object-cover" />
         </div>
-        <div className="flex items-center">
-          <h2 className="text-5xl lg:text-6xl text-left font-light">Give The Gift That Adds <span className="text-green semi-bold">Color</span> To Every Space. </h2>
-          <p></p>
+        <div className="grid items-center py-2">
+          <h2 className="text-5xl lg:text-6xl text-center font-light">Give The Gift That Will Make Them <span className="text-green semi-bold">Smile.</span></h2>
+          <div className="flex justify-center">
+            <button type="submit" className="bg-green text-white lg:text-lg focus:bg-white focus:text-green font-semi-bold px-12 py-2 mt-8 md:p-1 rounded-md">Shop Bouquets</button>
+          </div>
         </div>
       </div>
     </div>
