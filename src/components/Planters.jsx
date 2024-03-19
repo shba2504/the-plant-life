@@ -5,6 +5,7 @@ import planters3 from "../assets/images/planters3.jpg"
 import planters4 from "../assets/images/planters4.jpg"
 import planters5 from "../assets/images/planters5.jpg"
 import { MdOutlineArrowRightAlt } from "react-icons/md";
+import { AddButton } from './AddButton'
 
 export const Planters = () => {
   return (
@@ -18,21 +19,31 @@ export const Planters = () => {
           </button>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex gap-2">
         <div>
           <img src={planters1} alt="plants in gold containers on a wooden table" className="aspect-[4/3]" />
+          <AddButton />
+          <p>$0.00</p>
         </div>
         <div>
           <img src={planters3} alt="three beige planters with two on a pedestal" className="aspect-[4/3]" />
+          <AddButton />
+          <p>$0.00</p>
         </div>
         <div>
           <img src={planters2} alt="3 copper planters" className="aspect-[4/3]" />
+          <AddButton />
+          <p>$0.00</p>
         </div>
         <div>
-          <img src={planters5} alt="2 plants, one dark and one light" className="aspect-[4/3] object-cover "/>
+          <img src={planters5} alt="2 plants, one dark and one light" className="aspect-[4/3] object-cover"/>
+          <AddButton />
+          <p>$0.00</p>
         </div>
         <div>
           <img src={planters4} alt="a collection of various planters: white, brown, and gold" className="aspect-[4/3] object-cover"/>
+          <AddButton />
+          <p>$0.00</p>
         </div>
       </div>
     </div>

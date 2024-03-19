@@ -21,31 +21,31 @@ export const NewArrivals = () => {
             </button>
           </div>
         </div>
-        <div className="flex w-full">
+        <div className="flex gap-2">
           <div>
             <img src={newArrivals1} alt="plant in a white pot on a wooden floor against a black background" />
             <AddButton />
-            <p className="text-white">$0.00</p>
+            <p>$0.00</p>
           </div>
           <div>
             <img src={newArrivals2} alt="two plants on a tray against a white background" />
             <AddButton />
-            <p className="text-white">$0.00</p>
+            <p>$0.00</p>
           </div>
           <div>
             <img src={newArrivals5} alt="a plant in an off-white pot" />
             <AddButton />
-            <p className="text-white">$0.00</p>
+            <p>$0.00</p>
           </div>
           <div>
             <img src={newArrivals3} alt="a cactus in a brown pot" className="aspect-[2/3]" />
             <AddButton />
-            <p className="text-white">$0.00</p>
+            <p>$0.00</p>
           </div>
           <div>
             <img src={newArrivals4} alt="roses in a white pot" />
             <AddButton />
-            <p className="text-white">$0.00</p>
+            <p>$0.00</p>
           </div>
         </div>
         <div className="absolute top-[115%] -translate-x-0 -translate-y-[-50%] left-5 border cursor-pointer opacity-50">

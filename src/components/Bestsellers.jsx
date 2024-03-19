@@ -18,7 +18,7 @@ export const Bestsellers = () => {
             <button><MdOutlineArrowRightAlt fontSize={22}/></button>
           </div>
         </div>
-        <div className="flex">
+        <div className="flex gap-2">
           <div>
             <img src={bestsellers1} alt="" />
             <AddButton />
