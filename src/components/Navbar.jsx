@@ -10,7 +10,7 @@ import { IoMoonOutline } from "react-icons/io5";
 export const Navbar = () => {
   return (
     <>
-      <div className="sticky">
+      <div>
         <div>
           <aside className="flex justify-center items-center text-sm md:text-lg bg-banner h-12 font-body tracking-widest">
             <h1>FREE SHIPPING ON ALL U.S. ORDERS $50+</h1>

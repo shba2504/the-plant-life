@@ -9,7 +9,7 @@ export const Header = () => {
                 <div>
                   <img src={header} alt="3 planters on a shelf" />
                 </div>
-                <div className="bg-banner px-10 flex flex-col items-center justify-center md:order-first">
+                <div className="bg-banner flex flex-col items-center justify-center md:order-first">
                     <div className="py-6 md:py-4 lg:py-10">
                       <h1 className="text-5xl lg:text-6xl text-left font-light"><span className="text-green">Plant</span> Care Is</h1> 
                       <h1 className="text-5xl lg:text-6xl font-light pt-4"><span className="text-green">Self</span> Care</h1>
