@@ -11,11 +11,10 @@ import {Bestsellers} from "./components/Bestsellers"
 import {FeatureFlow} from "./components/FeatureFlow"
 import {WhyUs} from "./components/WhyUs"
 import {HomeDecor} from "./components/HomeDecor"
-import {Newsletter} from "./components/Newsletter"
 import {Footer} from "./components/Footer"
-import { setupIonicReact } from '@ionic/react';
-import { Gift } from './components/Gift';
-import { Flowers } from './components/Flowers';
+import { setupIonicReact } from '@ionic/react'
+import { Gift } from './components/Gift'
+import { Flowers } from './components/Flowers'
 
 setupIonicReact();
 
@@ -34,7 +33,6 @@ function App() {
      <WhyUs />
      <HomeDecor />
      <Gift />
-     <Newsletter />
      <Footer />
     </>
   )

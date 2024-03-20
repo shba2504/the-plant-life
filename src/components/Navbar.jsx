@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { RxHamburgerMenu } from "react-icons/rx";
 import logo from "../assets/images/logo.svg"
 import { PiMagnifyingGlassLight } from "react-icons/pi";
 import { IoCloseOutline } from "react-icons/io5";
@@ -8,6 +9,8 @@ import { IoCartOutline } from "react-icons/io5";
 import { IoMoonOutline } from "react-icons/io5";
 
 export const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false)
+
   return (
     <>
       <div>
@@ -23,18 +26,6 @@ export const Navbar = () => {
                 <input type="search" name="search" placeholder="Search" className="opacity-50 tracking-wide m-1 outline-none" />
                 <button aria-label="search" className="text-slate-500">
                   <PiMagnifyingGlassLight />
-                </button>
-              </div>
-
-              {/* Mobile menu */}
-              <div className="lg:hidden">
-                <button type="button" className="" aria-label="open menu">
-                  <span className="line1"></span>
-                  <span className="line2"></span>
-                  <span className="line3"></span>
-                </button>
-                <button type="button" className="" aria-label="close menu">
-                  <IoCloseOutline />
                 </button>
               </div>
 
@@ -67,6 +58,32 @@ export const Navbar = () => {
                 <li><a href="#home-decor">Home & Decor</a></li>
               </ul>
             </div>
+
+            {/* Mobile menu */}
+            <div className="lg:hidden">
+                <RxHamburgerMenu
+                  color="#002"
+                  fontSize={25}
+                  onClick={() => setToggleMenu(true)}
+                />
+
+                {toggleMenu && (
+                  <div>
+                    <IoCloseOutline fontSize={27} onClick={() => setToggleMenu(false)}/>
+                    <button aria-label="search" className="text-slate-500">
+                      <PiMagnifyingGlassLight />
+                    </button>
+                    <ul>
+                      <li>Home</li>
+                      <li>Plants</li>
+                      <li>Plant Care</li>
+                      <li>Planters</li>
+                      <li>Gifts</li>
+                      <li>Home & Decor</li>
+                    </ul>
+                  </div>
+                )}
+              </div>
           </nav>
         </div>
       </div>
