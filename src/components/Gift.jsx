@@ -4,7 +4,7 @@ import gift from "../assets/images/gift.jpg"
 export const Gift = () => {
   return (
     <div>
-      <div className="grid md:grid-cols-2 py-8 px-10 gap-8">
+      <div className="grid md:grid-cols-2 py-2 px-10 gap-8">
         <div>
           <img src={gift} alt="bouquet of flowers on a wooden table" className="aspect-[4/3] object-cover" />
         </div>

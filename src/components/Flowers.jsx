@@ -11,7 +11,7 @@ export const Flowers = () => {
   return (
     <div className="py-6 px-10 font-light">
       <div>
-        <div className="flex justify-between items-center text-left py-4">
+        <div className="flex justify-between items-center text-left py-2">
           <h2 className="text-lg lg:text-2xl tracking-widest">FLOWERS</h2>
           <div className="flex items-center">
             <p>Shop All Flowers</p>
