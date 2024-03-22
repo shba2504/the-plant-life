@@ -76,22 +76,26 @@ export const Navbar = () => {
                   fontSize={25}
                   onClick={() => setToggleMenu(true)}
                 />
-          </div>   
-            <div className="flex absolute px-16 top-24 cursor-pointer bg-white">
-                {toggleMenu && (
-                  <div className="relative right-6 z-[999]">
+          </div>
+          <div className="flex absolute px-16 top-0 cursor-pointer shadow bg-white text-lg z-[999]">
+              {toggleMenu && (
+                <div className="relative right-6">
+                  <div className="bg-green text-white flex justify-between items-center h-12">
+                    <p>Shop</p>
                     <div className="cursor-pointer">
                       <IoCloseOutline fontSize={27} onClick={() => setToggleMenu(false)}/>
                     </div>
-                    <div className="flex flex-col pt-8 gap-8">
-                      <ul className="flex flex-col gap-8">
-                        <li>Home</li>
-                        <li>Plants</li>
-                        <li>Plant Care</li>
-                        <li>Planters</li>
-                        <li>Gifts</li>
-                        <li>Home & Decor</li>
-                      </ul>
+                  </div>
+                  <div>
+                    <ul className="flex flex-col pt-8 gap-8">
+                      <li>Home</li>
+                      <li>Plants</li>
+                      <li>Plant Care</li>
+                      <li>Planters</li>
+                      <li>Gifts</li>
+                      <li>Home & Decor</li>
+                    </ul>
+                    <div className="py-8">
                       <div className="border border-slate-300 rounded-md pr-1 flex items-center lg:hidden">
                         <input type="search" name="search" placeholder="Search" className="opacity-50 tracking-wide m-1 outline-none" />
                         <button aria-label="search" className="text-slate-500">
@@ -100,8 +104,9 @@ export const Navbar = () => {
                       </div>
                     </div>
                   </div>
-                )}
-              </div>
+                </div>
+              )}
+          </div>
           </nav>
         </div>
       </div>
