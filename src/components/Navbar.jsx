@@ -14,24 +14,32 @@ export const Navbar = () => {
   return (
     <>
       <div>
+
+        {/* Banner */}
         <div>
           <aside className="flex justify-center items-center text-sm md:text-lg bg-banner h-12 font-body tracking-widest">
             <h1>FREE SHIPPING ON ALL U.S. ORDERS $50+</h1>
           </aside>
         </div>
+
+        {/* Navbar*/}
         <div>
           <nav>
-            <div className="flex justify-between items-center p-10 pb-6">
-              <div className="border border-slate-300 rounded-md pr-1 items-center hidden lg:flex">
+            <div className="flex justify-between items-center p-8 md:p-10">
+              <div className="border border-slate-300 rounded-md pr-1 items-center invisible lg:visible lg:flex">
                 <input type="search" name="search" placeholder="Search" className="opacity-50 tracking-wide m-1 outline-none" />
                 <button aria-label="search" className="text-slate-500">
                   <PiMagnifyingGlassLight />
                 </button>
               </div>
 
-              <a href="">
-                {<img src={logo} alt="website logo the plant life" className="ml-6 md:ml-16 lg:mr-36"/>}
-              </a>
+              <div className="">
+                <a href="">
+                  {<img src={logo} alt="website logo the plant life" className="w-11/12"/>}
+                </a>
+              </div>
+
+        {/* Icons */}
               <div className="flex justify-between gap-1 lg:gap-6">
                 <button className="" aria-label="light/dark mode">
                   <IoMoonOutline fontSize={22}/>
@@ -48,6 +56,8 @@ export const Navbar = () => {
               </div>
             </div>
             <hr className="text-slate-500 w-1/2 m-auto"/>
+
+        {/* Navbar Links */}
             <div>
               <ul className="hidden lg:flex justify-center gap-6 tracking-widest pt-6">
                 <li><a href="#">Home</a></li>
@@ -59,28 +69,36 @@ export const Navbar = () => {
               </ul>
             </div>
 
-            {/* Mobile menu */}
-            <div className="lg:hidden">
-                <RxHamburgerMenu
+        {/* Mobile menu */}
+          <div className="absolute px-10 top-24 cursor-pointer lg:hidden">
+            <RxHamburgerMenu
                   color="#002"
                   fontSize={25}
                   onClick={() => setToggleMenu(true)}
                 />
-
+          </div>   
+            <div className="flex absolute px-16 top-24 cursor-pointer bg-white">
                 {toggleMenu && (
-                  <div>
-                    <IoCloseOutline fontSize={27} onClick={() => setToggleMenu(false)}/>
-                    <button aria-label="search" className="text-slate-500">
-                      <PiMagnifyingGlassLight />
-                    </button>
-                    <ul>
-                      <li>Home</li>
-                      <li>Plants</li>
-                      <li>Plant Care</li>
-                      <li>Planters</li>
-                      <li>Gifts</li>
-                      <li>Home & Decor</li>
-                    </ul>
+                  <div className="relative right-6 z-[999]">
+                    <div className="cursor-pointer">
+                      <IoCloseOutline fontSize={27} onClick={() => setToggleMenu(false)}/>
+                    </div>
+                    <div className="flex flex-col pt-8 gap-8">
+                      <ul className="flex flex-col gap-8">
+                        <li>Home</li>
+                        <li>Plants</li>
+                        <li>Plant Care</li>
+                        <li>Planters</li>
+                        <li>Gifts</li>
+                        <li>Home & Decor</li>
+                      </ul>
+                      <div className="border border-slate-300 rounded-md pr-1 flex items-center lg:hidden">
+                        <input type="search" name="search" placeholder="Search" className="opacity-50 tracking-wide m-1 outline-none" />
+                        <button aria-label="search" className="text-slate-500">
+                          <PiMagnifyingGlassLight />
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
