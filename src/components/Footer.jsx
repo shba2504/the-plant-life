@@ -13,7 +13,7 @@ export const Footer = () => {
     <>
     <footer>
       <div className="mt-2 px-10">
-        <div>
+        <div className="grid grid-col-1 gap-2">
           <div className="flex justify-between">
             <h3>ORDERS</h3>
             <div className="cursor-pointer">
@@ -36,7 +36,7 @@ export const Footer = () => {
               </div>
             )}
           </div>
-          <hr />
+          <hr className="text-slate-500" />
 
           <div className="flex justify-between">
             <h3>CONTACT US</h3>
@@ -60,7 +60,7 @@ export const Footer = () => {
               </div>
             )}
           </div>
-          <hr />
+          <hr className="text-slate-500" />
 
           <div className="flex justify-between">
             <h3>THE PLANT LIFE</h3>
@@ -85,7 +85,7 @@ export const Footer = () => {
               </div>
             )}
           </div>
-          <hr />
+          <hr className="text-slate-500" />
 
           <div className="flex justify-between">
             <h3>POLICIES</h3>
@@ -110,7 +110,7 @@ export const Footer = () => {
               </div>
             )}
           </div>
-          <hr />
+          <hr className="text-slate-500 pb-6" />
 
         </div>
       </div>
@@ -120,7 +120,7 @@ export const Footer = () => {
             <img src={logo} alt="" className="pt-8 pb-4"/>
           </a>
         </div>
-        <hr className=""/>
+        <hr className="text-slate-500 w-3/4 m-auto"/>
         <p className="pt-4 pb-4 text-center">Copyright 2024</p>
       </div>
     </footer>
