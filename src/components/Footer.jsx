@@ -5,13 +5,16 @@ import { IoCloseOutline } from "react-icons/io5";
 
 export const Footer = () => {
   const [toggleOrders, setToggleOrders] = useState(false)
+  const [toggleContact, setToggleContact] = useState(false)
+  const [togglePlant, setTogglePlant] = useState(false)
+  const [togglePolicies, setTogglePolicies] = useState(false)
 
   return (
     <>
     <footer>
-      <div className="mt-2 px-10 bg-gray">
+      <div className="mt-2 px-10">
         <div>
-          <div>
+          <div className="flex justify-between">
             <h3>ORDERS</h3>
             <div className="cursor-pointer">
               <HiOutlinePlusSmall 
@@ -33,17 +36,19 @@ export const Footer = () => {
               </div>
             )}
           </div>
-          <div>
+          <hr />
+
+          <div className="flex justify-between">
             <h3>CONTACT US</h3>
             <div className="cursor-pointer">
               <HiOutlinePlusSmall color="#002"
-                onClick={() => setToggleOrders(true)}/>
+                onClick={() => setToggleContact(true)}/>
             </div>
 
-            {toggleOrders && (
+            {toggleContact && (
               <div>
                 <div className="cursor-pointer">
-                  <IoCloseOutline onClick={() => setToggleOrders(false)}/>
+                  <IoCloseOutline onClick={() => setToggleContact(false)}/>
                 </div>
                 <ul>
                   <li>Phone</li>
@@ -55,28 +60,58 @@ export const Footer = () => {
               </div>
             )}
           </div>
-          <div>
+          <hr />
+
+          <div className="flex justify-between">
             <h3>THE PLANT LIFE</h3>
-            <HiOutlinePlusSmall />
-            <ul>
-              <li>Blog</li>
-              <li>Plant Care</li>
-              <li>Gardening</li>
-              <li>Consultations</li>
-              <li>Locations</li>
-            </ul>
+            <div className="cursor-pointer">
+              <HiOutlinePlusSmall 
+                color="#002"
+                onClick={() => setTogglePlant(true)}/>
+            </div>
+
+            {togglePlant && (
+              <div>
+                <div className="cursor-pointer">
+                  <IoCloseOutline onClick={() => setTogglePlant(false)} />
+                </div>
+                <ul>
+                  <li>Blog</li>
+                  <li>Plant Care</li>
+                  <li>Gardening</li>
+                  <li>Consultations</li>
+                  <li>Locations</li>
+                </ul>
+              </div>
+            )}
           </div>
-          <div>
+          <hr />
+
+          <div className="flex justify-between">
             <h3>POLICIES</h3>
-            <HiOutlinePlusSmall />
-            <ul>
-              <li>Returns</li>
-              <li>Terms of Use</li>
-              <li>Privacy Policy</li>
-              <li>Become an Affiliate</li>
-              <li>Do Not Sell My Info</li>
-            </ul>
+            <div>
+              <HiOutlinePlusSmall 
+                color="#002"
+                onClick={() => setTogglePolicies(true)}/>
+            </div>
+            
+            {togglePolicies && (
+              <div>
+                <div className="cursor-pointer">
+                  <IoCloseOutline onClick={() => setTogglePolicies(false)} />
+                </div>
+                <ul>
+                  <li>Returns</li>
+                  <li>Terms of Use</li>
+                  <li>Privacy Policy</li>
+                  <li>Become an Affiliate</li>
+                  <li>Do Not Sell My Info</li>
+                </ul>
+              </div>
+            )}
           </div>
+          <hr />
+
         </div>
       </div>
       <div className="bg-banner mt-4 px-10">
