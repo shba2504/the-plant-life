@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import { RxHamburgerMenu } from "react-icons/rx";
+import { RxHamburgerMenu } from "react-icons/rx"
 import logo from "../assets/images/logo.svg"
-import { PiMagnifyingGlassLight } from "react-icons/pi";
-import { IoCloseOutline } from "react-icons/io5";
-import { IoPersonOutline } from "react-icons/io5";
-import { IoMdHeartEmpty } from "react-icons/io";
-import { IoCartOutline } from "react-icons/io5";
-import { IoMoonOutline } from "react-icons/io5";
+import { PiMagnifyingGlassLight } from "react-icons/pi"
+import { IoCloseOutline } from "react-icons/io5"
+import { IoPersonOutline } from "react-icons/io5"
+import { IoMdHeartEmpty } from "react-icons/io"
+import { IoCartOutline } from "react-icons/io5"
+import { IoMoonOutline } from "react-icons/io5"
 
 export const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
