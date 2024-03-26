@@ -12,19 +12,21 @@ export const Footer = () => {
   return (
     <>
     <footer>
-      <div className="mt-2 px-10">
+      <div className="mt-8 px-10">
         <div className="grid grid-col-1 gap-2">
           <div className="flex justify-between">
             <h3>ORDERS</h3>
-            <div className="cursor-pointer">
-              <HiOutlinePlusSmall 
-                color="#002"
-                onClick={() => setToggleOrders(true)}/>
+            <div className="flex items-center">
+              <div className="cursor-pointer absolute right-10 md:hidden">
+                <HiOutlinePlusSmall 
+                  color="#002"
+                  onClick={() => setToggleOrders(true)}/>
+              </div>
             </div>
 
             {toggleOrders && (
               <div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer relative flex justify-end z-[999] bg-white">
                   <IoCloseOutline onClick={() => setToggleOrders(false)}/>
                 </div>
                 <ul>
@@ -38,16 +40,18 @@ export const Footer = () => {
           </div>
           <hr className="text-slate-500" />
 
-          <div className="flex justify-between">
+          <div className="flex justify-between items-center">
             <h3>CONTACT US</h3>
-            <div className="cursor-pointer">
-              <HiOutlinePlusSmall color="#002"
-                onClick={() => setToggleContact(true)}/>
+            <div className="flex items-center">
+              <div className="cursor-pointer absolute right-10 md:hidden">
+                <HiOutlinePlusSmall color="#002"
+                  onClick={() => setToggleContact(true)}/>
+              </div>
             </div>
 
             {toggleContact && (
               <div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer relative flex justify-end z-[999] bg-white">
                   <IoCloseOutline onClick={() => setToggleContact(false)}/>
                 </div>
                 <ul>
@@ -62,17 +66,19 @@ export const Footer = () => {
           </div>
           <hr className="text-slate-500" />
 
-          <div className="flex justify-between">
+          <div className="flex justify-between items-center">
             <h3>THE PLANT LIFE</h3>
-            <div className="cursor-pointer">
-              <HiOutlinePlusSmall 
-                color="#002"
-                onClick={() => setTogglePlant(true)}/>
+            <div className="flex items-center">
+              <div className="cursor-pointer absolute right-10 md:hidden">
+                <HiOutlinePlusSmall 
+                  color="#002"
+                  onClick={() => setTogglePlant(true)}/>
+              </div>
             </div>
 
             {togglePlant && (
               <div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer relative flex justify-end z-[999] bg-white">
                   <IoCloseOutline onClick={() => setTogglePlant(false)} />
                 </div>
                 <ul>
@@ -87,17 +93,19 @@ export const Footer = () => {
           </div>
           <hr className="text-slate-500" />
 
-          <div className="flex justify-between">
+          <div className="flex justify-between items-center">
             <h3>POLICIES</h3>
-            <div>
-              <HiOutlinePlusSmall 
-                color="#002"
-                onClick={() => setTogglePolicies(true)}/>
+            <div className="flex items-center">
+              <div className="cursor-pointer absolute right-10 md:hidden">
+                <HiOutlinePlusSmall 
+                  color="#002"
+                  onClick={() => setTogglePolicies(true)}/>
+              </div>
             </div>
             
             {togglePolicies && (
               <div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer relative flex justify-end z-[999] bg-white">
                   <IoCloseOutline onClick={() => setTogglePolicies(false)} />
                 </div>
                 <ul>
