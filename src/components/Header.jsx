@@ -9,8 +9,8 @@ export const Header = () => {
                 <div>
                   <img src={header} alt="3 planters on a shelf" />
                 </div>
-                <div className="bg-banner flex flex-col items-center justify-center md:order-first">
-                    <div className="px-10 py-6 md:py-4 lg:py-10">
+                <div className="bg-banner flex flex-col justify-center px-10 md:order-first">
+                    <div className="py-6 md:py-4 lg:py-10">
                       <h1 className="text-5xl lg:text-6xl text-left font-light"><span className="text-green">Plant</span> Care Is</h1> 
                       <h1 className="text-5xl lg:text-6xl font-light pt-4"><span className="text-green">Self</span> Care</h1>
                       <p className="lg:text-lg pt-6">Discover our wide selection of plants, planters, & more!</p>
