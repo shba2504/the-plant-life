@@ -10,7 +10,7 @@ export const Gift = () => {
         </div>
         <div className="grid items-center py-2 lg:py-0">
           <div>
-            <h2 className="text-4xl lg:text-5xl text-center font-light">Give The Gift That Will Make Them <span className="text-green semi-bold">Smile.</span></h2>
+            <h2 className="text-4xl lg:text-5xl lg:pb-6 text-center font-light">Give The Gift That Will Make Them <span className="text-green semi-bold">Smile.</span></h2>
             <p className="text-center px-10 pt-6">The perfect gift for anyone.</p>
             <p className="text-center px-10">Want a gift for a plant lover? Buy them our eGift Card.</p>
             <div className="flex justify-center py-2">
