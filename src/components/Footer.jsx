@@ -16,18 +16,17 @@ export const Footer = () => {
         <div className="grid grid-col-1 gap-2">
           <div className="flex justify-between">
             <h3>ORDERS</h3>
-            <div className="flex items-center">
               <div className="cursor-pointer absolute right-10 md:hidden">
                 <HiOutlinePlusSmall 
                   color="#002"
+                  fontSize={20}
                   onClick={() => setToggleOrders(true)}/>
               </div>
-            </div>
 
             {toggleOrders && (
               <div>
                 <div className="cursor-pointer relative flex justify-end z-[999] bg-white">
-                  <IoCloseOutline onClick={() => setToggleOrders(false)}/>
+                  <IoCloseOutline fontSize={20} onClick={() => setToggleOrders(false)}/>
                 </div>
                 <ul>
                   <li>Track My Order</li>
@@ -44,7 +43,7 @@ export const Footer = () => {
             <h3>CONTACT US</h3>
             <div className="flex items-center">
               <div className="cursor-pointer absolute right-10 md:hidden">
-                <HiOutlinePlusSmall color="#002"
+                <HiOutlinePlusSmall color="#002" fontSize={20}
                   onClick={() => setToggleContact(true)}/>
               </div>
             </div>
@@ -52,7 +51,7 @@ export const Footer = () => {
             {toggleContact && (
               <div>
                 <div className="cursor-pointer relative flex justify-end z-[999] bg-white">
-                  <IoCloseOutline onClick={() => setToggleContact(false)}/>
+                  <IoCloseOutline fontSize={20} onClick={() => setToggleContact(false)}/>
                 </div>
                 <ul>
                   <li>Phone</li>
@@ -72,6 +71,7 @@ export const Footer = () => {
               <div className="cursor-pointer absolute right-10 md:hidden">
                 <HiOutlinePlusSmall 
                   color="#002"
+                  fontSize={20}
                   onClick={() => setTogglePlant(true)}/>
               </div>
             </div>
@@ -79,7 +79,7 @@ export const Footer = () => {
             {togglePlant && (
               <div>
                 <div className="cursor-pointer relative flex justify-end z-[999] bg-white">
-                  <IoCloseOutline onClick={() => setTogglePlant(false)} />
+                  <IoCloseOutline fontSize={20} onClick={() => setTogglePlant(false)} />
                 </div>
                 <ul>
                   <li>Blog</li>
@@ -99,6 +99,7 @@ export const Footer = () => {
               <div className="cursor-pointer absolute right-10 md:hidden">
                 <HiOutlinePlusSmall 
                   color="#002"
+                  fontSize={20}
                   onClick={() => setTogglePolicies(true)}/>
               </div>
             </div>
@@ -106,7 +107,7 @@ export const Footer = () => {
             {togglePolicies && (
               <div>
                 <div className="cursor-pointer relative flex justify-end z-[999] bg-white">
-                  <IoCloseOutline onClick={() => setTogglePolicies(false)} />
+                  <IoCloseOutline fontSize={20} onClick={() => setTogglePolicies(false)} />
                 </div>
                 <ul>
                   <li>Returns</li>
