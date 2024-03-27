@@ -13,10 +13,13 @@ export const Footer = () => {
     <>
     <footer>
       <div className="mt-8 px-10">
-        <div className="grid grid-col-1 gap-2">
-          <div className="flex justify-between">
-            <h3>ORDERS</h3>
-              <div className="cursor-pointer absolute right-10 md:hidden">
+        <div className="block md:hidden pb-6">
+
+          {/* ORDERS */}
+
+          <div className="block border-b">
+            <h3 className="">ORDERS</h3>
+              <div className="cursor-pointer flex justify-end items-center md:hidden">
                 <HiOutlinePlusSmall 
                   color="#002"
                   fontSize={20}
@@ -28,18 +31,21 @@ export const Footer = () => {
                 <div className="cursor-pointer relative flex justify-end z-[999] bg-white">
                   <IoCloseOutline fontSize={20} onClick={() => setToggleOrders(false)}/>
                 </div>
-                <ul>
-                  <li>Track My Order</li>
-                  <li>Shipping and Handling</li>
-                  <li>30-Day Guarantee</li>
-                  <li>FAQs</li>
-                </ul>
+                <div className="">
+                  <ul>
+                    <li>Track My Order</li>
+                    <li>Shipping and Handling</li>
+                    <li>30-Day Guarantee</li>
+                    <li>FAQs</li>
+                  </ul>
+                </div>
               </div>
             )}
           </div>
-          <hr className="text-slate-500" />
 
-          <div className="flex justify-between items-center">
+          {/* CONTACT */}
+
+          <div className="block border-b">
             <h3>CONTACT US</h3>
             <div className="flex items-center">
               <div className="cursor-pointer absolute right-10 md:hidden">
@@ -63,9 +69,10 @@ export const Footer = () => {
               </div>
             )}
           </div>
-          <hr className="text-slate-500" />
 
-          <div className="flex justify-between items-center">
+          {/* PLANT LIFE */}
+
+          <div className="block border-b">
             <h3>THE PLANT LIFE</h3>
             <div className="flex items-center">
               <div className="cursor-pointer absolute right-10 md:hidden">
@@ -91,9 +98,10 @@ export const Footer = () => {
               </div>
             )}
           </div>
-          <hr className="text-slate-500" />
 
-          <div className="flex justify-between items-center">
+          {/* POLICIES */}
+
+          <div className="block border-b">
             <h3>POLICIES</h3>
             <div className="flex items-center">
               <div className="cursor-pointer absolute right-10 md:hidden">
@@ -119,7 +127,6 @@ export const Footer = () => {
               </div>
             )}
           </div>
-          <hr className="text-slate-500 pb-6" />
 
         </div>
       </div>

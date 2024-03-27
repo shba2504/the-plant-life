@@ -40,22 +40,22 @@ export const Navbar = () => {
               </div>
 
         {/* Icons */}
-              <div className="flex justify-between gap-1 lg:gap-6">
-                <button className="" aria-label="light/dark mode">
-                  <IoMoonOutline fontSize={22}/>
-                </button>
-                <button className="" aria-label="user">
-                  <IoPersonOutline fontSize={22}/>
-                </button>
-                <button className="hidden lg:visible" aria-label="favorites">
-                  <IoMdHeartEmpty fontSize={22}/>
-                </button>
-                <button className="" aria-label="shopping cart">
-                  <IoCartOutline fontSize={22}/>
-                </button>
-              </div>
-            </div>
-            <hr className="text-slate-500 w-1/2 m-auto"/>
+          <div className="flex justify-between gap-1 lg:gap-6">
+            <button className="" aria-label="light/dark mode">
+              <IoMoonOutline fontSize={22}/>
+            </button>
+            <button className="" aria-label="user">
+              <IoPersonOutline fontSize={22}/>
+            </button>
+            <button className="hidden lg:visible" aria-label="favorites">
+              <IoMdHeartEmpty fontSize={22}/>
+            </button>
+            <button className="" aria-label="shopping cart">
+              <IoCartOutline fontSize={22}/>
+            </button>
+          </div>
+        </div>
+        <hr className="text-slate-500 w-1/2 m-auto"/>
 
         {/* Navbar Links */}
             <div>
