@@ -18,13 +18,15 @@ export const Footer = () => {
           {/* ORDERS */}
 
           <div className="block border-b">
-            <h3 className="">ORDERS</h3>
-              <div className="cursor-pointer flex justify-end items-center md:hidden">
-                <HiOutlinePlusSmall 
-                  color="#002"
-                  fontSize={20}
-                  onClick={() => setToggleOrders(true)}/>
-              </div>
+            <div className="flex justify-between items-center">
+              <h3 className="">ORDERS</h3>
+                <div className="cursor-pointer md:hidden">
+                  <HiOutlinePlusSmall 
+                    color="#002"
+                    fontSize={20}
+                    onClick={() => setToggleOrders(true)}/>
+                </div>
+            </div>
 
             {toggleOrders && (
               <div>
